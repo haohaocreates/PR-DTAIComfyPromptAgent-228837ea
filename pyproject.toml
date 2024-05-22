@@ -1,0 +1,15 @@
+[project]
+name = "dtaicomfypromptagent"
+description = "Nodes: Prompt Agent, Prompt Agent (String). This script provides a prompt agent node for the Comfy UI stable diffusion client."
+version = "1.0.0"
+license = "LICENSE"
+dependencies = ["requests"]
+
+[project.urls]
+Repository = "https://github.com/yolanother/DTAIComfyPromptAgent"
+#  Used by Comfy Registry https://comfyregistry.org
+
+[tool.comfy]
+PublisherId = ""
+DisplayName = "DTAIComfyPromptAgent"
+Icon = ""
